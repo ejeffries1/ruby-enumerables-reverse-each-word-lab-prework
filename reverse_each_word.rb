@@ -5,3 +5,9 @@ def reverse_each_word(phrase)
   end
   new_array.join(" ")
 end
+
+def reverse_each_word(phrase)
+  phrase.collect do |word|
+    word
+  end
+end
