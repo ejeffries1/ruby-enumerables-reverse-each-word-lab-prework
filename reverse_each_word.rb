@@ -1,6 +1,6 @@
 def reverse_each_word(phrase)
   new_array = []
-  phrase.reverse.each do |words|
+  phrase.each do |words|
     new_array.push(words)
   end
 end
