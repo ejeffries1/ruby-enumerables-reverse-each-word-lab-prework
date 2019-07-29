@@ -6,7 +6,7 @@ def reverse_each_word(phrase)
   new_array.join(" ")
 end
 
-def reverse_each_word(phrase)
+def reverse_collect_word(phrase)
   phrase.collect do |word|
     word
   end
